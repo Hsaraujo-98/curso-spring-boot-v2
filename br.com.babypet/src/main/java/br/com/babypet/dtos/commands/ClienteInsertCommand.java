@@ -17,12 +17,12 @@ public class ClienteInsertCommand {
 	private String nome;
 	
 	@NotBlank(message = "CPF deve ser informado")
-	@CpfMustBeValid(message = "CPF deve ser vÃ¡lido")
-	@CpfMustBeUnique(message = "CPF deve ser Ãºnico")
+	@CpfMustBeValid(message = "CPF deve ser válido")
+	@CpfMustBeUnique(message = "CPF deve se Único")
 	private String cpf;
 	
 	@NotBlank(message = "E-Mail deve ser informado")
-	@Email(message = "E-Mail deve ser vÃ¡lido")
+	@Email(message = "E-Mail deve ser válido")
 	private String email;
 	
 	public String getNome() {

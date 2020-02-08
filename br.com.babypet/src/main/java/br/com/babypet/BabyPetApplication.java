@@ -11,7 +11,7 @@ public class BabyPetApplication {
 		SpringApplication.run(BabyPetApplication.class, args);
 		
 		System.out.println("**************");
-		System.out.println("AplicaÃ§Ã£o rodando!");
+		System.out.println("Aplicação rodando!");
 	}
 	
 }
